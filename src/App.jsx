@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import TodoForm from './components/TodoForm'
+import TodoItem from './components/TodoItem'
 
 function App() {
 
   return (
     <>
-    <h1>Learnig redux toolkit
-    </h1>
+    <TodoForm />
+    <TodoItem />
     </>
   )
 }
